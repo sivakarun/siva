@@ -2,7 +2,7 @@
         session_start();
         if(!isset($_SESSION['name']))
         {
-                header("location: login.html");
+                header("location: index.html");
         }
         ?>
         <?php

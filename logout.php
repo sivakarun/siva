@@ -5,5 +5,5 @@ session_start();
                 session_destroy();
                 }
                 echo '<h1>You have been successfully logout</h1>';
-                echo "<a href='login.html'>logout</a>";
+                echo "<a href='index.html'>logout</a>";
 ?>
